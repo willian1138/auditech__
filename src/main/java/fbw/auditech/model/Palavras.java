@@ -17,9 +17,9 @@ public class Palavras {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
-    List<String> primeiroNivel = List.of("gato", "passaro", "sol", "azul");
-    List<String> segundoNivel = List.of("ornitorinco", "calopsita", "paralelepipedo", "tamanduatei");
-    List<String> terceiroNivel = List.of("Esparadrapagem ", "Desoxirribonucleico ", "Quintessencialmente ");
-    List<String> quartoNivel = List.of("Anticonstitucionalismo", "Anticonstitucionalissimamente ", "Pneumoultramicroscopicossilicovulcanoconiótico");
+    List<String> primeiroNivel = List.of("gato", "passaro", "cobra");
+    List<String> segundoNivel = List.of("ornitorinco", "arvore", "onomatopeia");
+    List<String> terceiroNivel = List.of("esparadrapofobia", "obscuro", "gótico");
+    List<String> quartoNivel = List.of("desoxirribonucleico", "pepita", "teatro");
     
 }

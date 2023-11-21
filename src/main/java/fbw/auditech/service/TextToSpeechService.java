@@ -71,7 +71,7 @@ public class TextToSpeechService {
             for (String palavra : palavrasList) {
                 SynthesisInput input = SynthesisInput.newBuilder().setText(palavra).build();
                 VoiceSelectionParams voice = VoiceSelectionParams.newBuilder()
-                        .setLanguageCode("pt-BR")
+                        .setLanguageCode("en-US")
                         .setSsmlGender(SsmlVoiceGender.NEUTRAL)
                         .build();
                 AudioConfig audioConfig = AudioConfig.newBuilder().setAudioEncoding(AudioEncoding.LINEAR16).build();
